@@ -1,0 +1,45 @@
+.containerCadastro{
+    margin: 100px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    background-color: #047ffc;
+}
+
+.headerCadastro{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5%;
+}
+
+.form-control{
+    width: 90%;
+    margin-left: 5%
+}
+.btnCadastro{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.labelCadastro{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.linkLogin{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+

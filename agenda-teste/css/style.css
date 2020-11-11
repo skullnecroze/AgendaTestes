@@ -1,0 +1,159 @@
+*{
+    padding: 3px;
+}
+
+.visitedButton:visited {
+    color: white;
+}
+
+body, ul, li, p{
+    margin: 0px;
+    list-style-type: none;
+
+}
+
+.menu{
+    display: flex;
+    font-size: 30px;
+}
+
+li{
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+
+.contHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contHeader a{
+    text-decoration: none;
+}
+.contHeader div{
+    padding-left: 7px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btnHeader{
+    padding: 0;
+}
+
+.btnDropDown{
+    font-size: 20px;
+
+
+}
+
+hr{
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+}
+
+.label-search{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+img.card-img-top{
+    height: 20rem;
+}
+
+.flexcard{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    margin: 0 auto;
+
+
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,0.3);
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 6px;
+
+}
+
+.card:hover {
+    transition: filter .2s;
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.3));
+}
+
+.card-title{
+    margin: 0px;
+}
+
+.card-body{
+    padding: 10px;
+    flex: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title p{
+    display: block;
+    text-align: center;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+.list-group-item{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.list-group-item p{
+
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+
+
+}
+.list-group-item p.conteudo{
+    font-weight: bold;
+
+}
+.search-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border: 1px solid rgba(0,0,0,0.6);
+    border-radius: 10px;
+    background-color: #007bff;
+}
+
+.form-group input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-control {
+    padding-left: 10px;
+    width: 93%;
+}
+
+.tableContato{
+    max-width: content-box;
+}
+
+.imagemWhats{
+    max-width: 60px;
+}
+.jumboTour{
+    margin-bottom: 10px;
+
+}

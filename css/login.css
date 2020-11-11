@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.loginDiv{
+    width: 350px;
+    margin: 190px auto 0px auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #047ffc;
+
+
+}
+
+.loginLabel{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.loginInput{
+    margin: 10px;
+    width: 90%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: none;
+}
+
+.btnLogin{
+    border: 1px solid white;
+    border-radius: 0;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+.linkCadastra{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+.contHeader{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contHeader a{
+    text-decoration: none;
+}
+.contHeader div{
+    height: 80px;
+    padding-left: 7px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+hr{
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+}
